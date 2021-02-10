@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="incorrectLogicOperator" severity="warning" msg="Logical conjunction always evaluates to false: adc_result &amp;gt;= 51 &amp;amp;&amp;amp; adc_result &amp;lt;= 25." verbose="Logical conjunction always evaluates to false: adc_result &amp;gt;= 51 &amp;amp;&amp;amp; adc_result &amp;lt;= 25. Are these conditions necessary? Did you intend to use || instead? Are the numbers correct? Are you comparing the correct variables?" cwe="570" hash="8380139056074265499">
+            <location file="application.c" line="49"/>
+        </error>
+    </errors>
+</results>

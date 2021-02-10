@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1607918287 source:c:\adaptivelight\adc.c
+	"adc.h"
+
+1607941978 c:\adaptivelight\adc.h
+	"gpio.h"
+
+1607941978 c:\adaptivelight\gpio.h
+	<avr/io.h>
+	<util/delay.h>
+	<avr/interrupt.h>
+	<stdint.h>
+
+1607704941 source:c:\adaptivelight\fuse.c
+	<avr/io.h>
+
+1607942117 source:c:\adaptivelight\gpio.c
+	"gpio.h"
+
+1607918287 source:c:\adaptivelight\interupt.c
+	"gpio.h"
+	"interupt.h"
+
+1607939630 source:c:\adaptivelight\main.c
+	"gpio.h"
+	"adc.h"
+
+1607918287 source:c:\adaptivelight\pwm.c
+	"pwm.h"
+
+1607941978 c:\adaptivelight\pwm.h
+	"gpio.h"
+
+1607939988 source:c:\adaptivelight\application.c
+	"gpio.h"
+	"adc.h"
+	"applicatio.h"
+
+1607941978 c:\adaptivelight\interupt.h
+	"gpio.h"
+
+1607885445 source:c:\adaptivelight\timer.c
+	"timer.h"
+	"gpio.h"
+
+1607942117 c:\adaptivelight\timer.h
+	"gpio.h"
+
+1607941978 c:\adaptivelight\applicatio.h
+	"gpio.h"
+
